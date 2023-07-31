@@ -1,0 +1,68 @@
+/* Home.css */
+
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.content-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.navbar {
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.dashboard,
+.featured-products,
+.quick-links,
+.news-announcements {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlohNdO4ElHlHHZBgMyGMgZxjoa3LcyNzrmw&usqp=CAU");
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.dashboard h2,
+.featured-products h2,
+.quick-links h2,
+.news-announcements h2 {
+  margin-top: 0;
+  padding: 10px;
+  
+}
+
+
+*{
+  margin: 0;
+}
+.foot {
+  background-color: #f6faf7;
+  padding: 10px;
+  text-align: center;
+  position: absolute;
+  bottom: 200px;
+  margin-left: 300px;
+  
+  
+}
+
+.foot p {
+  margin: 0;
+}
+
+.foot ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.foot ul li {
+  margin-right: 10px;
+}
